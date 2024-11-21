@@ -1,0 +1,24 @@
+.cards-tendencias {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.card-tendencias {
+    background-color: purple;
+    color: white;
+    width: 25%;
+    border: purple 1px solid;
+    padding: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(128, 0, 128, 0.5);
+}
+
+.card-tendencias:hover {
+    background-color: transparent;
+    border: purple 1px solid;
+    color: purple;
+    transition: .7s;
+}
