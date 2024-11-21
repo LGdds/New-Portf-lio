@@ -672,3 +672,60 @@ footer .texto span a:hover{
 .box .topico {
     color: purple;
 }
+
+section {
+    background-color: black;
+}
+nav {
+    background-color: black;
+}
+
+.mb-3 {
+    background-color: black;
+    color: purple;
+    width: 50rem;
+    margin: 0;
+}
+
+.mb-3 input {
+    background-color: black;
+    color: purple;
+    border: purple 1px solid;
+}
+
+.mb-3 label {
+    background-color: black;
+    color: purple;
+    
+}
+.mb-3 textarea {
+    background-color: black;
+    color: purple;
+    border: purple 1px solid;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.secao button {
+    padding: 1rem;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+}
+
+.secao button:hover {
+    background-color: transparent;
+    border: purple 1px solid;
+    transition: .7s;
+    color: purple;
+}
+
+.secao h1 {
+    color: white;
+}
+
