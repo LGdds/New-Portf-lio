@@ -1,32 +1,32 @@
-.secao-escolar {
+.cards-tendencias {
     display: flex;
     justify-content: center;
     gap: 5rem;
+    margin-top: 5rem;
 }
-.card-escolar {
-    background-color: #800080;
+
+.card-tendencias {
+    background-color: purple;
     color: white;
-    width: 25rem;
-    height: 25rem;
+    width: 25%;
     border: purple 1px solid;
     padding: 2rem;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 10px 10px 10px rgba(128, 0, 128, 0.5);
-    margin-top: 5rem;
 }
 
-.card-escolar p {
-    margin-top: 1rem;
+.card-tendencias p {
+    margin-top: 1rem
 }
 
-.anos {
-    text-align: center;
-}
-
-.card-escolar:hover {
+.card-tendencias:hover {
     background-color: transparent;
     border: purple 1px solid;
     color: purple;
     transition: .7s;
+}
+
+.titulo-divs {
+    text-align: center;
 }
