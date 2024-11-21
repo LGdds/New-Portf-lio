@@ -53,6 +53,10 @@ nav {
     font-weight: bold;
 }
 
+.texto p {
+    color: white;
+}
+
 .logo span{
     color: purple;
     text-shadow: 0 0 10px purple;
@@ -355,6 +359,18 @@ section .button button:hover{
     width: 50%;
 }
 
+.datalhes-skills {
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.porcentagem {
+    font-size: 60px;
+}
+
+
+
 .detalhes-skills p{
     color: white;
     text-align: justify;
@@ -378,12 +394,25 @@ section .button button:hover{
     font-weight: 500;
     margin: 0 6px;
 }
-
-.detalhes-skills .boxes{
-    width: 45%;
+.boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.boxes {
+    gap: 7rem;
+}
+
+.experiencia {
+    color: #ffffff;
+}
+
+.box {
+    width: 10rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 .detalhes-skills .box{
@@ -400,6 +429,18 @@ section .button button:hover{
     font-size: 60px;
     color: purple;
 }
+
+.experiencia {
+    display: flex;
+    align-items: center;
+
+}
+
+.experiencia .num {
+    font-size: 70px;
+}
+
+
 
 .servicos .boxes{
     display: flex;
@@ -452,6 +493,7 @@ section .button button:hover{
 .servicos .boxes .box:hover p{
     color: #fff;
 }
+
 
 .contato{
     background: black;
@@ -620,4 +662,13 @@ footer .texto span a:hover{
         font-size: 50px;
         color: purple;
     }
+}
+
+.porcentagem {
+    color: purple;
+}
+
+
+.box .topico {
+    color: purple;
 }
