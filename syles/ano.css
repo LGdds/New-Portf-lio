@@ -1,11 +1,11 @@
-.cards-tendencias {
+.cards-ano {
     display: flex;
     justify-content: center;
     gap: 5rem;
     margin-top: 5rem;
 }
 
-.card-tendencias {
+.card-ano {
     background-color: purple;
     color: white;
     width: 25%;
@@ -16,11 +16,11 @@
     box-shadow: 10px 10px 10px rgba(128, 0, 128, 0.5);
 }
 
-.card-tendencias p {
+.card-ano p {
     margin-top: 1rem
 }
 
-.card-tendencias:hover {
+.card-ano:hover {
     background-color: transparent;
     border: purple 1px solid;
     color: purple;
@@ -31,6 +31,6 @@
     text-align: center;
 }
 
-.card-tendencias .img{
+.card-ano .img{
     width: 10px;
 }
