@@ -728,3 +728,6 @@ nav {
     color: white;
 }
 
+.card-tendencias img {
+    border-radius: 20px;
+}
