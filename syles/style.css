@@ -735,3 +735,22 @@ nav {
 #responseMessage {
     color: black;
 }
+
+.animacao{
+    font-size: 2rem;
+    color: purple;
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; 
+    animation: typing 5s steps(20) infinite, blink 0.5s step-end infinite;
+  }
+
+  @keyframes typing {
+    0%, 100% { width: 0; } 
+    50% { width: 16.5ch; } 
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent;}
+    }
