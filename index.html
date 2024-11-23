@@ -53,13 +53,13 @@
                 </div>
                 <p data-aos="flip-down " data-aos-duration="1500" data-aos-delay="1100">Pretendo me tornar um Web developer de sucesso no ramo de programação!</p>
                 <div class="social-links">
-                    <a href="https://github.com/LGdds" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="1300"> 
+                    <a href="https://github.com/LGdds" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="1300" target="_blank"> 
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/luiz-gustavo-gomes-da-silva-517533300/" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="1400"> 
+                    <a href="https://www.linkedin.com/in/luiz-gustavo-gomes-da-silva-517533300/" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="1400" target="_blank"> 
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    <a href="https://www.instagram.com/lguu.gomes/" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="1500"> 
+                    <a href="https://www.instagram.com/lguu.gomes/" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="1500" target="_blank"> 
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
@@ -217,6 +217,7 @@
     </section>
     <section class="secao">
         <h1>Me envie uma mensagem</h1>
+        <form id="myform">
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -225,7 +226,9 @@
             <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button>Enviar</button>
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="responseMessage"></p>
     </section>
     <footer>
         <div class="texto">

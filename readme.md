@@ -1,0 +1,9 @@
+use email;
+
+CREATE TABLE emails (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    input_email VARCHAR(255) NOT NULL,
+    input_text VARCHAR(255) NOT NULL
+);
+
+UTILIZANDO DBEAVER COM MySQL

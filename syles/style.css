@@ -731,3 +731,7 @@ nav {
 .card-tendencias img {
     border-radius: 20px;
 }
+
+#responseMessage {
+    color: black;
+}
