@@ -7,26 +7,37 @@ body {
  .container {
     max-width: 1200px;
     margin: auto;
-    background: #fff;
+    background-color: black;
+    border: solid 1px purple;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: purple;
+    margin-top: 3rem;
  }
  h1 {
     text-align: center;
  }
  .carrinho {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: flex;
     gap: 20px;
  }
  .produto {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: purple;
     border-radius: 8px;
+    color: white;
     padding: 10px;
     text-align: center;
     transition: box-shadow 0.3s;
+    margin-top: 6rem;
+    box-shadow: 10px 10px 10px rgba(128, 0, 128, 0.5);
+    cursor: pointer;
+ }
+ .produto:hover {
+   background-color: black;
+   border: 1px solid purple;
+   transition: .7s;
+   color: purple;
  }
  .produto img {
     max-width: 100%;

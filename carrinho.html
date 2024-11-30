@@ -6,29 +6,66 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Compras</title>
         <link rel="stylesheet" href="/syles/carrinho.css">
+        <link rel="stylesheet" href="./syles/style.css">
     </head>
     <body>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    <span>Luiz</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="100"><a href="./index.html">Home</a></div>
+                    <div class="link" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="200"><a href="#">Sobre Mim</a></div>
+                    <div class="link" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
+                    <div class="link" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="500"><a href="#">Contato</a></div>
+                    <div class="link" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="500"><a href="./tendencias.html">Tendencias</a></div>
+                    <div class="link" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="500"><a href="./ano.html">Escolar</a></div>
+                    <div class="link" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="500"><a href="./projetos.html">Projetos</a></div>
+                    <div class="link" data-aos="fade-up " data-aos-duration="1500" data-aos-delay="500"><a href="./carrinho.html">Carrinho</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+                <div class="dropdown">
+                    <div class="links">
+                        <a href="#">Home</a>
+                        <a href="#">Sobre Mim</a>
+                        <a href="#">Skills</a>
+                        <a href="#">Projetos</a>
+                        <a href="#">Contato</a>
+                        <a href="#">Tendencias</a>
+                        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                    </div>
+                </div>
+        </nav>
         <div class="container">
             <h1>Carrinho de Compras</h1>
                 <div class="carrinho">
-                    <div class="produto">
-                        <img src="produto1.jpg" alt="Produto 1">
+                <div class="produto">
+                        <img src="./images/tenis3.jpeg" alt="Produto 1">
                         <h2>Produto 1</h2>
                         <p>Preço: R$ 10,00</p>
                         <label for="quantidade1">Quantidade:</label>
                         <input type="number" id="quantidade1" value="1" min="1">
                         <p>Total: R$ 10,00</p>
-        </div>
-        <div class="produto">
-            <img src="produto2.jpg" alt="Produto 2">
-            <h2>Produto 2</h2>
-            <label for="quantidade2">Quantidade:</label>
-            <input type="number" id="quantidade2" value="1" min="1">
-            <p>Preço: R$ 20,00</p>
-            <p>Total: R$ 20,00</p>
-        </div>
-<!-- Adicione mais produtos conforme necessário -->
-    </div>
+                </div>
+                <div class="produto">
+                    <img src="./images/tenis3.jpeg" alt="Produto 1">
+                    <h2>Produto 2</h2>
+                    <p>Preço: R$ 10,00</p>
+                    <label for="quantidade1">Quantidade:</label>
+                    <input type="number" id="quantidade1" value="1" min="1">
+                    <p>Total: R$ 10,00</p>
+                </div>
+                <div class="produto">
+                    <img src="./images/tenis3.jpeg" alt="Produto 1">
+                    <h2>Produto 2</h2>
+                    <p>Preço: R$ 10,00</p>
+                    <label for="quantidade1">Quantidade:</label>
+                    <input type="number" id="quantidade1" value="1" min="1">
+                    <p>Total: R$ 10,00</p>
+                </div>
+            </div>
     <div class="total">
         <h2>Total Geral: R$ 30,00</h2>
         <button>Finalizar Compra</button>
