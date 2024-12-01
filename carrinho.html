@@ -40,36 +40,17 @@
         </nav>
         <div class="container">
             <h1>Carrinho de Compras</h1>
-                <div class="carrinho">
-                <div class="produto">
-                        <img src="./images/tenis3.jpeg" alt="Produto 1">
-                        <h2>Yeezy Boost 350 V2 'Triple White'</h2>
-                        <p>Preço: R$ 1200,00</p>
-                        <label for="quantidade1">Quantidade:</label>
-                        <input type="number" id="quantidade1" value="1" min="1">
-                        <p>Total: R$ 1200,00</p>
+                <div class="carrinho" id="carrinho">
+                    <div id="feedback">
+                        
+                    </div>
                 </div>
-                <div class="produto">
-                    <img src="./images/tenis1.jpeg" alt="Produto 1">
-                    <h2>Travis Scott x Air Jordan 1 Low reverse Mocha</h2>
-                    <p>Preço: R$ 10000,00</p>
-                    <label for="quantidade1">Quantidade:</label>
-                    <input type="number" id="quantidade1" value="1" min="1">
-                    <p>Total: R$ 10000,00</p>
-                </div>
-                <div class="produto">
-                    <img src="./images/tenis3.jpeg" alt="Produto 1">
-                    <h2>Yeezy Boost 350 V2 bone</h2>
-                    <p>Preço: R$ 1000,00</p>
-                    <label for="quantidade1">Quantidade:</label>
-                    <input type="number" id="quantidade1" value="1" min="1">
-                    <p>Total: R$ 1000,00</p>
-                </div>
+            <div class="total" id="totalGeral">
+                <h2>Total Geral: R$ 12200,00</h2>
+                <button onclick="alerta()" >Finalizar Compra
+                </button>
             </div>
-    <div class="total">
-        <h2>Total Geral: R$ 12200,00</h2>
-        <button>Finalizar Compra</button>
-    </div>
-    </div>
-</body>
+        </div>
+        <script src="javaScript/carrinho.js"></script>
+    </body>
 </html>
