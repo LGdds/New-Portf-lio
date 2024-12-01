@@ -13,11 +13,10 @@ CREATE TABLE produtos (
     preco DECIMAL(10, 2) NOT NULL,     
     total DECIMAL(10, 2) GENERATED ALWAYS AS (quantidade * preco) stored 
 );
+
 INSERT INTO produtos (nome, quantidade, preco) VALUES
-('Tênis Esportivo', 10, 150.00),
-('Camiseta Casual', 20, 50.00),
-('Mochila Escolar', 15, 120.00),
-('Relógio Digital', 8, 300.00),
-('Fone de Ouvido', 25, 80.00);
+1	Yeezy Boost 350 V2 'Cream White / Triple White'	1	1200.00	1200.00
+2	Travis Scott x Air Jordan 1 Low reverse Mocha	1	10000.00	10000.00
+3	Yeezy Boost 350 V2 bone	1	1400.00	1400.00
 
 UTILIZANDO DBEAVER COM MySQL
